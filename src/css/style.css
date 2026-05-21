@@ -4,3 +4,88 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    
+    /*===================================
+    Azul → botões, hover, detalhes neon
+    Roxo → fundo, gradientes
+    Rosa → destaque principal/logo
+    Amarelo → estrelas, moedas, XP, CTA
+    ====================================*/
+    
+    /* PRIMARY */
+    --primary-blue: #33B1FF;
+    --primary-purple: #A855F7;
+    --primary-pink: #FF4FD8;
+    --primary-yellow: #FFD84D;
+
+    /* SECONDARY */
+    --secondary-cyan: #63E6FF;
+    --secondary-lilac: #C8B6FF;
+    --secondary-navy: #1D267D;
+    --secondary-soft: #E9E4FF;
+
+    /* BACKGROUND */
+    --bg-dark: #15162E;
+    --bg-dark-secondary: #24264A;
+    --bg-light: #F5F7FF;
+
+    /* TEXT */
+    --text-white: #FFFFFF;
+    --text-gray: #B8B8D0;
+
+    /* EFFECTS */
+    --shadow-neon: 0 0 20px rgba(168, 85, 247, 0.45);
+    --gradient-main: linear-gradient(
+        180deg,
+        #33B1FF,
+        #A855F7,
+        #FF4FD8
+    );
+}
+
+
+/*=========
+    HERO
+===========*/
+
+#hero{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bg-dark);
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.9s ease-in-out;
+}
+
+#img-hero{
+    width: 560px;
+    height: 450px;
+}
+
+#press-start{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 40px;
+    background: var(--gradient-main);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
