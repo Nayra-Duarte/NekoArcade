@@ -1,10 +1,3 @@
-/*Reset*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root{
     
     /*===================================
@@ -27,7 +20,7 @@
     --secondary-soft: #E9E4FF;
 
     /* BACKGROUND */
-    --bg-dark: #15162E;
+    --bg-dark: #000111;
     --bg-dark-secondary: #24264A;
     --bg-light: #F5F7FF;
 
@@ -43,6 +36,28 @@
         #A855F7,
         #FF4FD8
     );
+    --gradient-h1: linear-gradient(
+        135deg,
+        #33B1FF,
+        #A855F7,
+        #FF4FD8
+    );
+    --gradient-h1-span: linear-gradient(
+        180deg,
+        #33B1FF,
+        #ffffff
+    );
+}
+
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-dark);
 }
 
 
@@ -72,7 +87,7 @@
     font-family: "Press Start 2P", system-ui;
     font-size: 40px;
     background: var(--gradient-main);
-     background-clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: piscar 1s infinite;
@@ -89,3 +104,92 @@
         opacity: 1;
     }
 }
+
+#logo{
+    width: 150px;
+    height: 130px;
+    margin: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+header h1{
+    font-size: 4rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: var(--gradient-h1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header h1 span{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: var(--gradient-h1-span);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--text-white);
+    text-shadow: var(--shadow-neon);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#menu{
+    margin-right:25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-white);
+    text-shadow: var(--shadow-neon);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav ul li a:hover{
+    background: var(--gradient-h1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#banner{
+    width: 100%;
+}
+
+
