@@ -203,6 +203,7 @@ section h2{
     font-size: 1.2rem;
 }
 
+
 #produtos-destaque{
     display: flex;
     gap: 20px;
@@ -219,7 +220,7 @@ section h2{
     min-height: 300px;
     background-color: var(--bg-dark-secondary);
     border-radius: 24px;
-    padding: 16px;
+    padding: 10px;
     border: 2px, solid, var(--bg-dark-secondary);
     display: flex;
     flex-direction: column;
@@ -623,4 +624,36 @@ footer #copy{
     font-family: "Fredoka", sans-serif;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/*============
+    PROMOÇÃO
+==============*/
+
+hr{
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    width: 65%;
+     margin: 40px auto 20px auto;
+}
+
+#promocao{
+    display: grid;
+    justify-content: center;
+}
+
+#promocao span{
+    color:var(--primary-yellow);
+    font-size: 1.5rem;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#promocao h2{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text-white);
 }
