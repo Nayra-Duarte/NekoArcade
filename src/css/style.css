@@ -520,13 +520,33 @@ section h2{
 
 footer{
     background: var(--bg-dark-secondary);
-    padding: 20px 80px 10px 20px;
+    padding: 50px 8% 25px;
+}
+
+.footer-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-superior{
+    max-width: 280px;
+}
+
+.footer-logo{
+    width: 110px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 footer h2{
     font-size: 2rem;
-    padding-bottom: 50px;
     font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 18px;
+
     background: var(--gradient-h1);
     background-clip: text;
     -webkit-background-clip: text;
@@ -534,126 +554,54 @@ footer h2{
 }
 
 footer h2 span{
-    font-family: "Pixelify Sans", sans-serif;
     background: var(--gradient-h1-span);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-footer #copy{
-    color: var(--primary-purple);
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.footer-conteudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.footer-superior {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 250px;
-}
-
-.footer-superior p{
+.footer-superior p,
+.footer-informacoes p,
+.footer-links a{
     color: var(--text-white);
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.footer-logo {
-    width: 105px;
-    height: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
 }
 
 .footer-informacoes h3,
-.footer-links h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    color: var(--text-white);
-    margin-bottom: 6px;
+.footer-links h3{
+    font-family: "Pixelify Sans", sans-serif;
+    color: var(--primary-pink);
+    font-size: 1.4rem;
+    margin-bottom: 18px;
 }
 
-.footer-informacoes p {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    color: var(--text-white);
-    margin-bottom: 8px;
+.footer-informacoes p{
+    margin-bottom: 10px;
 }
 
-.footer-links ul {
+.footer-links ul{
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    padding: 0;
 }
 
-.footer-links ul li a {
-    font-family: 'Pixelify Sans', sans-serif;
-    color: var(--text-white);
-    font-size: 15px;
-    color: var(--text-white);
+.footer-links li{
+    margin-bottom: 10px;
+}
+
+.footer-links a{
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: 0.3s;
 }
 
-.footer-links ul li a:hover {
-    font-family: "Pixelify Sans", sans-serif;
-    background: var(--gradient-h1);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.footer-links a:hover{
+    color: var(--primary-blue);
 }
 
-.footer-copy {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.footer-copy p {
-    font-family: "Fredoka", sans-serif;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-/*============
-    PROMOÇÃO
-==============*/
-
-hr{
-    border: none;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    width: 65%;
-     margin: 40px auto 20px auto;
-}
-
-#promocao{
-    display: grid;
-    justify-content: center;
-}
-
-#promocao span{
-    color:var(--primary-yellow);
-    font-size: 1.5rem;
-    font-family: "Pixelify Sans", sans-serif;
-    text-align: center;
-    margin: 20px 0 20px 0;
-}
-
-#promocao h2{
-    font-family: 'Press Start 2P', system-ui;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+.footer-copy p{
     text-align: center;
     color: var(--text-white);
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 25px;
 }
