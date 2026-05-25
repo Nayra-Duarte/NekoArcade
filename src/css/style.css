@@ -609,3 +609,257 @@ footer h2 span{
     padding-top: 25px;
 }
 
+/* =============================================
+   RESPONSIVIDADE
+=============================================== */
+
+/*====================
+    TABLET ≤1024px
+=====================*/
+@media (max-width: 1024px) {
+
+    #img-hero {
+        width: 420px;
+        height: 340px;
+    }
+
+    #press-start {
+        font-size: 28px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+
+    .card-home {
+        width: 210px;
+    }
+
+    .categoria-container {
+        gap: 14px;
+    }
+
+    .categoria-card {
+        width: 200px;
+        padding: 18px;
+    }
+
+    #promocao h2 {
+        font-size: 1.5rem;
+    }
+
+    .avaliacoes-container {
+        gap: 14px;
+    }
+
+    .footer-conteudo {
+        gap: 30px;
+    }
+}
+
+
+/*====================
+    MOBILE ≤768px
+=====================*/
+@media (max-width: 768px) {
+
+    #img-hero {
+        width: 280px;
+        height: 230px;
+    }
+
+    #press-start {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 85px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    nav ul li,
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    #menu {
+        margin-right: 0;
+    }
+
+    section h2 {
+        font-size: 1.1rem;
+        margin: 20px 10px 8px;
+    }
+
+    .card-home {
+        width: 195px;
+        min-height: 270px;
+    }
+
+    .card-home img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .categoria-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoria-card {
+        width: 90%;
+        max-width: 340px;
+    }
+
+    #promocao {
+        padding: 22px 16px;
+    }
+
+    #promocao h2 {
+        font-size: 1.2rem;
+    }
+
+    #promocao p {
+        font-size: 1rem;
+    }
+
+    #promocao button {
+        min-width: 70%;
+        min-height: 44px;
+    }
+
+    #avaliacoes-home {
+        padding: 40px 4%;
+    }
+
+    .avaliacao-card {
+        width: 260px;
+    }
+
+    .footer-conteudo {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .footer-superior {
+        max-width: 100%;
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*========================
+    MOBILE PEQUENO ≤480px
+===========================*/
+@media (max-width: 480px) {
+
+    #img-hero {
+        width: 220px;
+        height: 178px;
+    }
+
+    #press-start {
+        font-size: 13px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    #logo {
+        width: 75px;
+        height: 65px;
+    }
+
+    nav ul li,
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    section h2 {
+        font-size: 0.9rem;
+    }
+
+    .card-home {
+        width: 175px;
+        min-height: 250px;
+        gap: 6px;
+    }
+
+    .card-home img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .card-home h3 {
+        font-size: 0.95rem;
+    }
+
+    .categoria-card {
+        width: 95%;
+    }
+
+    .categoria-card h3 {
+        font-size: 1.2rem;
+    }
+
+    #promocao h2 {
+        font-size: 1rem;
+    }
+
+    #promocao span {
+        font-size: 1.1rem;
+    }
+
+    #promocao button {
+        min-width: 90%;
+    }
+
+    #promocao button a {
+        font-size: 15px;
+    }
+
+    .avaliacao-card {
+        width: 230px;
+        padding: 18px;
+    }
+
+    footer {
+        padding: 35px 5% 20px;
+    }
+
+    .footer-copy p {
+        font-size: 0.78rem;
+    }
+}
