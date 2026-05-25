@@ -337,3 +337,198 @@ main h2{
 .texto img:hover{
     transform:scale(1.03);
 }
+
+/* ================
+   RESPONSIVIDADE
+=================== */
+
+/* ================
+   TABLET ≤1024px
+=================== */
+@media (max-width: 1024px) {
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+
+    #logo {
+        width: 120px;
+        height: 104px;
+    }
+
+    main h2 {
+        font-size: 1.2rem;
+        margin: 35px 30px 10px 50px;
+    }
+
+    .texto {
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .texto p {
+        font-size: 1.05rem;
+    }
+
+    .texto img {
+        width: 340px;
+        height: 230px;
+    }
+
+    .footer-conteudo {
+        gap: 30px;
+    }
+}
+
+/* ================
+   MOBILE ≤768px
+=================== */
+@media (max-width: 768px) {
+
+    /* Hero */
+    #img-hero {
+        width: 280px;
+        height: 230px;
+    }
+
+    #press-start {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 85px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    nav ul li,
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    #menu {
+        margin-right: 0;
+    }
+
+    main h2 {
+        font-size: 1rem;
+        margin: 25px 15px 10px 15px;
+        text-align: center;
+    }
+
+    .texto {
+        flex-direction: column !important;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .texto p {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .texto img {
+        width: 100%;
+        max-width: 480px;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    .footer-conteudo {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .footer-superior {
+        max-width: 100%;
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/*=========================
+     MOBILE PEQUENO ≤480px 
+=============================*/
+@media (max-width: 480px) {
+
+    #img-hero {
+        width: 220px;
+        height: 178px;
+    }
+
+    #press-start {
+        font-size: 13px;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    #logo {
+        width: 75px;
+        height: 65px;
+    }
+
+    nav ul li,
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    main h2 {
+        font-size: 0.85rem;
+        margin: 18px 10px 8px;
+    }
+
+    .texto {
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .texto p {
+        font-size: 0.92rem;
+        line-height: 1.65;
+    }
+
+    .texto img {
+        height: 185px;
+    }
+
+    footer {
+        padding: 35px 5% 20px;
+    }
+
+    .footer-copy p {
+        font-size: 0.78rem;
+    }
+}
+
