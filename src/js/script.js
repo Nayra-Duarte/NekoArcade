@@ -51,49 +51,46 @@ const produtosHome = [
         descricao: "Pelúcia super macia do Snorlax perfeita para decorar setups gamers.",
         preco: 149.90
     },
-    //cards a mais
+
     {
-        nome: 'Funko Pop Star Wars 818 The Mandalorian e Grogu',
-        categoria: 'Funko',
-        imagem: "./src/assets/img/funko-grogu-mandalorian.png",
-        descricao:'Funko Pop exclusivo do Mandalorian com Grogu inspirado em Star Wars.',
-        preco: 269.90
-    },
-    {
-        nome: "Headset Gamer RGB",
-        categoria: "Periféricos",
-        imagem: "./src/assets/img/headset.png",
-        descricao: "Headset com áudio imersivo, iluminação RGB e microfone integrado.",
-        preco: 349.90
+        nome: "Funko Pop Miles Morales",
+        categoria: "Funko",
+        imagem: "./src/assets/img/funko-miles.png",
+        descricao: "Funko estilizado do Miles Morales inspirado no universo Spider-Verse.",
+        preco: 219.90
     },
 
     {
-        nome: "Nintendo Switch 2",
+        nome: "PlayStation 5",
         categoria: "Consoles",
-        imagem: "./src/assets/img/nintendo-switch2.png",
-        descricao: "Nova geração do console da Nintendo com gráficos aprimorados e desempenho avançado.",
-        preco: 4499.90
+        imagem: "./src/assets/img/ps5.png",
+        descricao: "Console de nova geração da Sony.",
+        preco: 4299.90
     },
 
     {
-        nome: "Teclado Mecânico Neon",
+        nome: "Mouse Gamer RGB",
         categoria: "Periféricos",
-        imagem: "./src/assets/img/teclado-neon.png",
-        descricao: "Teclado mecânico gamer com iluminação RGB e switches rápidos.",
-        preco: 429.90
+        imagem: "./src/assets/img/mouse-gamer.png",
+        descricao: "Mouse gamer ergonômico com RGB.",
+        preco: 199.90
     },
 
     {
-        nome: "Pelúcia Snorlax",
+        nome: "Mini Arcade Retrô",
         categoria: "Colecionáveis",
-        imagem: "./src/assets/img/pelucia-snorlax.png",
-        descricao: "Pelúcia super macia do Snorlax perfeita para decorar setups gamers.",
-        preco: 149.90
+        imagem: "./src/assets/img/mini-arcade.png",
+        descricao: "Mini máquina arcade decorativa.",
+        preco: 329.90
+    },
+
+    {
+        nome: "Pelúcia Kirby",
+        categoria: "Colecionáveis",
+        imagem: "./src/assets/img/pelucia-kirby.png",
+        descricao: "Pelúcia inspirada no Kirby.",
+        preco: 139.90
     }
-
-
-
-
 ]
 
 const produtosDestaque = document.getElementById("produtos-destaque");
