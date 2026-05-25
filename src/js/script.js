@@ -8,8 +8,8 @@ window.onload = function(){
             intro.style.display="none";
             content.classList.remove("hidden");
             content.classList.add("efeito-in");
-        },1000)
-    },3000)
+        },500)
+    },1500)
 }
 
 const produtosHome = [

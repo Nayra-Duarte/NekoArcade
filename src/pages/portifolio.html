@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/portifolio.css">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>NekoArcade | Portifólio</title>
+</head>
+<body>
+
+    <section id="hero">
+        <img src="../assets/img/logo.png" alt="Logo" id="img-hero">
+        <p id="press-start">PressStart</p>
+    </section>
+
+    <header>
+        <nav>
+            <img src="../assets/img/logo.png" alt="Logo" id="logo">
+            <h1>Neko<span>Arcade</span></h1>
+            <ul id="menu">
+                <li><a href="../../index.html">Início</a></li>
+                <li>|</li>
+                <li><a href="./portifolio.html">Portifólio</a></li>
+                <li>|</li>
+                <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="filtro-categorias">
+
+            <button onclick="mostrarProdutos('Todos')">
+                Todos
+            </button>
+
+            <button onclick="mostrarProdutos('Funko')">
+                Funko
+            </button>
+
+            <button onclick="mostrarProdutos('Consoles')">
+                Consoles
+            </button>
+
+            <button onclick="mostrarProdutos('Periféricos')">
+                Periféricos
+            </button>
+
+            <button onclick="mostrarProdutos('Colecionáveis')">
+                Colecionáveis
+            </button>
+
+        </section>
+
+        <section>
+            <div id="produtos-portifolio"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-conteudo">
+                <div class="footer-superior">
+                    <img src="../assets/img/logo.png" alt="logo NekoArcade" class="footer-logo">
+                    <h2>Neko<span>Arcade</span></h2>
+                    <p>🎮 NekoArcade — Seu universo gamer começa aqui.</p>
+                </div>
+
+                <div class="footer-informacoes">
+                    <h3>Contato</h3>
+                    <p>sac.nekoarcade@gmail.com</p>
+                    <p>55 4456-2895</p>
+                    <p>CNPJ: 125.498.564/2320</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="../../index.html">Início</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-copy">
+                <p>&copy; Todos os Direitos Reservados | 2026</p>
+        </div>
+    </footer>
+    <script src="../js/portifolio.js"></script>
+</body>
+</html>
