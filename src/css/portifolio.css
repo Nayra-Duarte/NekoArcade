@@ -420,13 +420,13 @@ section h2{
     font-family: 'Poppins', sans-serif;
 }
 
-/* =============================================
-   RESPONSIVO - PÁGINA PORTIFÓLIO / PRODUTOS
-   Cole no final do CSS da página de produtos
-   Breakpoints: ≤1024px | ≤768px | ≤480px
-=============================================== */
+/* ==================
+   RESPONSIVIVIDADE
+==================== */
 
-/* ── TABLET ≤1024px ── */
+/* ==================
+   TABLET - 1024px
+==================== */
 @media (max-width: 1024px) {
 
     header h1 {
@@ -464,14 +464,14 @@ section h2{
         width: 100%;
     }
 
-    /* Footer */
     .footer-conteudo {
         gap: 30px;
     }
 }
 
-
-/* ── MOBILE ≤768px ── */
+/* ==================
+   MOBILE - 768px
+==================== */
 @media (max-width: 768px) {
 
     /* Hero */
@@ -486,7 +486,6 @@ section h2{
         padding: 0 20px;
     }
 
-    /* Header / Nav */
     header {
         flex-direction: column;
         align-items: center;
@@ -523,7 +522,6 @@ section h2{
         margin-right: 0;
     }
 
-    /* Filtro */
     #filtro-categorias {
         flex-wrap: wrap;
         height: auto;
@@ -537,7 +535,6 @@ section h2{
         padding: 7px 13px;
     }
 
-    /* Grid de produtos — 2 colunas */
     #produtos-portifolio {
         grid-template-columns: repeat(2, 1fr);
         gap: 14px;
@@ -573,7 +570,6 @@ section h2{
         margin: 18px 10px 8px;
     }
 
-    /* Footer */
     .footer-conteudo {
         flex-direction: column;
         gap: 28px;
@@ -588,11 +584,11 @@ section h2{
     }
 }
 
-
-/* ── MOBILE PEQUENO ≤480px ── */
+/* ======================
+  MOBILE PEQUENO - 480px
+=========================*/
 @media (max-width: 480px) {
 
-    /* Hero */
     #img-hero {
         width: 220px;
         height: 178px;
@@ -602,7 +598,6 @@ section h2{
         font-size: 13px;
     }
 
-    /* Header */
     header h1 {
         font-size: 1.7rem;
     }
@@ -617,13 +612,11 @@ section h2{
         font-size: 13px;
     }
 
-    /* Filtro */
     #filtro-categorias button {
         font-size: 0.8rem;
         padding: 6px 10px;
     }
 
-    /* Grid — 1 coluna em telas muito pequenas */
     #produtos-portifolio {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -661,7 +654,6 @@ section h2{
         font-size: 0.85rem;
     }
 
-    /* Footer */
     footer {
         padding: 35px 5% 20px;
     }
